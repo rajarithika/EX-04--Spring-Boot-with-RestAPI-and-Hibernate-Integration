@@ -99,3 +99,22 @@ public class MovieController {
         }).orElse(ResponseEntity.notFound().build());
     }
 }
+
+## Output:
+POST /movies
+<img width="1049" height="680" alt="image" src="https://github.com/user-attachments/assets/26c3e55d-880f-4a8a-bcf8-617a366d0ba7" />
+
+GET /movies
+<img width="1047" height="688" alt="image" src="https://github.com/user-attachments/assets/b166e51e-f7c6-4916-bdc1-5faf1a1b6374" />
+
+PUT /movies/{id}
+<img width="1055" height="681" alt="image" src="https://github.com/user-attachments/assets/d594655d-e714-4c90-8251-b82c37f28173" />
+
+DELETE /movies/{id}
+<img width="1044" height="634" alt="image" src="https://github.com/user-attachments/assets/7a661b47-381e-46c6-8990-9ca2ae13c3f1" />
+
+## Result:
+Thus the development of a Spring Boot application to store and retrieve data from a Movies database is completed successfully
+
+
+
